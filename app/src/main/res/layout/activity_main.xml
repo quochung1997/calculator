@@ -16,6 +16,7 @@
     <include
         layout="@layout/cal_buttons"
         android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
@@ -30,6 +31,7 @@
 
     <include
         layout="@layout/cal_handmodel"
+        android:layout_marginTop="5sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end" />
