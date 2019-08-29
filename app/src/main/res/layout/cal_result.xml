@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/tv_userInput"
+        android:layout_width="match_parent"
+        android:text="123"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:textAlignment="textEnd"
+        android:padding="5sp"
+        android:gravity="end"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tv_userResult"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAlignment="textEnd"
+        android:text="0"
+        android:textSize="50sp"
+        android:padding="5sp"
+        android:gravity="end"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

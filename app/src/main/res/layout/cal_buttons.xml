@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/btn_seven"
+        android:text="7"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="0"
+        />
+
+    <Button
+        android:id="@+id/btn_eight"
+        android:text="8"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="0"
+        />
+
+    <Button
+        android:id="@+id/btn_nine"
+        android:text="9"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="0"
+        />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:text="+"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="0"
+        />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:text="1"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="2"
+        />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:text="2"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="2"
+        />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:text="3"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="2"
+        />
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:text="*"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="2"
+        />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:text="c"
+        style="@style/FunctionalButtons"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:textColor="@color/colorYellow"
+        />
+
+    <Button
+        android:id="@+id/btn_zero"
+        android:text="0"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="3"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_bracket"
+        android:text="()"
+        style="@style/FunctionalButtons"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:textColor="@color/colorYellow"
+        />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:text="/"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="3"
+        />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:text="4"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="1"
+        />
+
+    <Button
+        android:id="@+id/btn_five"
+        android:text="5"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="1"
+        />
+
+    <Button
+        android:id="@+id/btn_six"
+        android:text="6"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="1"
+        />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:text="-"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="1"
+        />
+
+</GridLayout>
